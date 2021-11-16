@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import { useSelector, useDispatch } from 'react-redux';
 import { getFilter } from '../../redux/Phonebook/phone-selector';
 import { changeFilter } from '../../redux/Phonebook/phone-actions';
@@ -22,8 +21,3 @@ export default function Filter() {
     </div>
   );
 }
-
-Filter.propTypes = {
-  value: PropTypes.string.isRequired,
-  onChange: PropTypes.func.isRequired,
-};

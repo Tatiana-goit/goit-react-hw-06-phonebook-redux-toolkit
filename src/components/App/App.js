@@ -10,12 +10,6 @@ import Modal from '../Modal/Modal';
 
 export default function App() {
   const [showModal, setShowModal] = useState(false);
-
-  //   searchSameName
-  //     ? alert(`${obj.name} is already in contacts`)
-  //     : setContacts([...contacts, newContact]);
-  // };
-
   const toggleModal = () => setShowModal(!showModal);
 
   return (
