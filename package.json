@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-06-phonebook",
+  "name": "goit-react-hw-06-phonebook-redux-toolkit",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Tatiana-goit.github.io/goit-react-hw-06-phonebook-vanila-redux",
+  "homepage": "https://Tatiana-goit.github.io/goit-react-hw-06-phonebook-redux-toolkit",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.14.1",

@@ -6,7 +6,6 @@ import ContactForm from '../ContactForm/ContactForm';
 import ContactList from '../ContactList/ContactList';
 import Filter from '../Filter/Filter';
 import Modal from '../Modal/Modal';
-// import useLocalStorage from '../../hooks/useLocalStorage';
 
 export default function App() {
   const [showModal, setShowModal] = useState(false);
