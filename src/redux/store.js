@@ -30,11 +30,6 @@ const contactReducer = combineReducers({
 
 const persisteContactReducer = persistReducer(persistConfig, contactReducer);
 
-// export const store = configureStore({
-//   reducer: contactReducer,
-//   devTools: process.env.NODE_ENV !== 'production',
-// });
-
 export const store = configureStore({
   reducer: persisteContactReducer,
   middleware: getDefaultMiddleware =>
@@ -47,13 +42,3 @@ export const store = configureStore({
 });
 
 export const persistor = persistStore(store);
-
-
-// ----------FOR VANILA REDUX----------
-
-// import { createStore } from 'redux';
-// import { composeWithDevTools } from 'redux-devtools-extension';
-// import contactReducer from './Phonebook/phone-reducers';
-
-// const store = createStore(contactReducer, composeWithDevTools());
-// export default store;

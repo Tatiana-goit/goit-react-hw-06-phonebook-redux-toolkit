@@ -8,11 +8,4 @@ export const getFiltredContacts = state => {
     name.toLowerCase().includes(normalizeFilter),
   );
   return filteredContact;
-    
-  // const contacts = getContacts(state);
-  // const filter = getFilter(state);
-  // const normalizeFilter = filter.toLowerCase();
-  // return contacts.filter(({ name }) =>
-  //   name.toLowerCase().includes(normalizeFilter),
-  // );
 };
